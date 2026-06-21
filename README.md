@@ -1,139 +1,134 @@
-#  Forest Fire Prediction using Machine Learning
+# 🔥 Forest Fire Prediction using Machine Learning
 
-An AI-powered Machine Learning project that predicts the possibility of forest fires using environmental conditions. This system analyzes factors like temperature, humidity, wind speed, rainfall, and fire weather indices to provide early wildfire risk predictions.
+A Machine Learning project that predicts the risk of forest fires based on environmental conditions like temperature, humidity, wind speed, rainfall, and fire weather indices.  
+It uses the **Algerian Forest Fire Dataset** and provides a **Streamlit web application** for real-time prediction.
 
-The project uses the Algerian Forest Fire Dataset and provides an interactive Streamlit web application for real-time forest fire risk prediction.
+---
 
 ## 🚀 Features
 
-🔥 Machine Learning based wildfire risk prediction  
-🌎 Uses Algerian Forest Fire Dataset  
-🖥️ Interactive Streamlit Web Application  
-📊 Real-time prediction using user inputs  
-⚡ Data preprocessing and model training  
-🤖 Logistic Regression based classification model  
+- 🔥 Predicts forest fire risk using ML model  
+- 🌍 Uses real-world Algerian Forest Fire Dataset  
+- 🖥️ Interactive Streamlit web app  
+- ⚡ Real-time prediction based on user input  
+- 📊 Data cleaning and preprocessing included  
+- 🤖 Logistic Regression model  
 
-## 🧠 Machine Learning Workflow
+---
 
-Dataset Collection  
-↓  
-Data Cleaning  
-↓  
-Data Preprocessing  
-↓  
-Feature Selection  
-↓  
-Model Training  
-↓  
-Model Evaluation  
-↓  
-Fire Risk Prediction  
+## 🧠 Workflow
 
-## 📂 Dataset
+```
+Data Collection → Data Cleaning → Feature Selection → Model Training → Evaluation → Prediction
+```
 
-Dataset Used:
+---
 
-Algerian Forest Fire Dataset
+## 📂 Dataset Information
 
-Features:
+**Algerian Forest Fire Dataset**
 
+### Features used:
 - Temperature (°C)
 - Humidity (%)
 - Wind Speed (km/h)
 - Rainfall (mm)
-- FFMC (Fine Fuel Moisture Code)
-- DMC (Duff Moisture Code)
-- DC (Drought Code)
-- ISI (Initial Spread Index)
-- BUI (Buildup Index)
-- FWI (Fire Weather Index)
+- FFMC
+- DMC
+- DC
+- ISI
+- BUI
+- FWI
 
-Target:
+### Target:
+- Fire Risk (Fire / No Fire)
 
-Forest Fire Risk Classification
+---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-Programming Language:
-- Python
+- Python  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Matplotlib  
+- Seaborn  
+- Streamlit  
+- Joblib  
 
-Libraries:
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Joblib
-
-Framework:
-- Streamlit
+---
 
 ## ⚙️ Installation
 
-Clone the repository:
-
+```bash
 git clone https://github.com/yourusername/Forest-Fire-Prediction-Streamlit.git
-
-Go inside project folder:
-
 cd Forest-Fire-Prediction-Streamlit
+```
 
-Create virtual environment:
-
+### Create virtual environment
+```bash
 python -m venv venv
+```
 
-Activate environment:
+### Activate environment
+```bash
+venv\Scripts\activate   # Windows
+source venv/Scripts/activate   # Git Bash
+```
 
-Windows:
-
-venv\Scripts\activate
-
-Git Bash:
-
-source venv/Scripts/activate
-
-Install dependencies:
-
+### Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-## ▶️ Run Project
+---
 
-Start Streamlit application:
+## ▶️ Run Application
 
+```bash
 streamlit run forest_fire.py
+```
 
-Open browser:
-
+Then open in browser:
+```
 http://localhost:8501
+```
 
-## 📊 Model Details
+---
 
-Machine Learning Algorithm:
+## 🤖 Model
 
-Logistic Regression
+- Algorithm: Logistic Regression  
+- Task: Binary Classification  
+- Output: Fire Risk Prediction  
 
-The model learns patterns from historical forest fire data and predicts fire risk based on environmental conditions provided by the user.
+---
 
-## 🎯 Applications
+## 📈 Applications
 
-- Wildfire early warning system
-- Forest monitoring
-- Disaster management
-- Environmental protection
-- Fire risk analysis
+- Wildfire early warning systems  
+- Environmental monitoring  
+- Disaster prevention  
+- Smart forest management  
+
+---
 
 ## 🔮 Future Improvements
 
-- Real-time weather API integration
-- Satellite based fire detection
-- Deep Learning models
-- Cloud deployment
-- Improved accuracy
+- Real-time weather API integration  
+- Deep Learning models  
+- Satellite image detection  
+- Cloud deployment  
+- Higher accuracy models  
+
+---
 
 ## 👨‍💻 Author
 
-Mohammed Kupe
+**Mohammed Kupe**
+
+---
 
 ## ⭐ Support
 
-If you like this project, give it a star ⭐ on GitHub.
+If you like this project, don't forget to star ⭐ the repository!
